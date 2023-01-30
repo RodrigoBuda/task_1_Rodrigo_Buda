@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+    font-style: oblique;
+}
+p{
+    font-family: cursive;
+}
+
+h1{
+    font-size: 40px;
+}
+header h2{
+   font-size: 30px;
+   text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    border: solid black 1px;
+    padding: 2px 20px;
+    margin: 5px;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.tit{
+        margin-left: 60px;
+}
+
+.verde{background-color: rgb(112, 173, 71);}
+.azul{background-color: rgb(68, 114, 196);}
+
+.banner{
+    background-image: url(./img/banner.jpg);
+
+    width: 1000px;
+    height: 300px;
+    margin-left: 60px ;
+    background-size: cover;
+}
+nav{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 650px;
+}
+.logo{
+    display: inline;
+    margin-left: 50px;
+}
+.fechas{
+    display: inline-block;
+    width: 500px;
+}
+.fechas p{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+/*about*/
+.cont-mision, .cont-vision, .cont-info{
+    width: 800px;
+}
+.container{
+    display: inline-block;
+}
+.container h2{
+    margin-top: 20px;
+}
+.logo-about{
+    display: inline;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    margin-right: 30px;
+}
+
+
+/*contact*/
+.logo-contact{
+    display: inline;
+    margin-left: 50px;
+    
+    margin-right: 30px;
+}
+.cont-email{
+    display: inline-block;
+    width: 350px;
+    
+}
