@@ -5,8 +5,7 @@
 }
 body{
     font-family: cursive;
-    font-style: oblique;
-}
+    font-style: oblique;}
 p{
     font-family: cursive;
 }
@@ -30,6 +29,7 @@ a{
 }
 .tit{
         margin-left: 60px;
+        margin-bottom: 20px;
 }
 
 .verde{background-color: rgb(112, 173, 71);}
@@ -37,24 +37,36 @@ a{
 
 .banner{
     background-image: url(./img/banner.jpg);
-
-    width: 1000px;
+    display: flex;
+    margin: auto;
+    width: 75%;
     height: 300px;
-    margin-left: 60px ;
     background-size: cover;
 }
 nav{
-    position: absolute;
-    margin-top: -20px;
-    margin-left: 650px;
+display: flex;
+align-items: flex-start;
+justify-content: flex-end;
+margin-left: auto;
+margin-top: -20px;
+    
 }
+.tit-h2{
+    margin: 0px auto 30px;
+    border: 2px solid black;
+    width: 75%;
+    background-color: rgb(68, 114, 196);
+}
+
+
 .logo{
-    display: inline;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .fechas{
     display: inline-block;
     width: 500px;
+    margin-left: 60px;
+  
 }
 .fechas p{
     margin-left: 30px;
@@ -80,6 +92,7 @@ nav{
 
 
 /*contact*/
+
 .logo-contact{
     display: inline;
     margin-left: 50px;
@@ -91,3 +104,59 @@ nav{
     width: 350px;
     
 }
+
+/* game_info */
+
+
+
+.logo-game{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 60px;
+}
+
+.tablas{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+table{
+   width: 50%;
+}
+.sub-tits{
+    text-align: center;
+    margin-bottom: 50px;
+}
+td{
+    text-align: center;
+}
+.ult-datos{
+    margin-left: 60px;
+    width: 50%;
+}
+
+/* Rules */
+
+.logo-rules{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+main h3{
+    text-align: center;
+}
+
+.politicas{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+.politicas p{
+    margin: 30px;
+}
+.politicas h2{
+    margin: 20px;
+}
+
