@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-ico" href="./img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Registration form</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="tit">Mighty Ducks Hockey league</h1>
+      <div class="banner">
+        <nav>
+          <a class="azul" href="./index.html">Home</a>
+          <a class="azul" href="./about.html">About</a>
+          <a class="azul" href="./game_info.html">Game info</a>
+          <a class="azul" href="./rules.html">Rules</a>
+          <a class="azul" href="./contact.html">Contact</a>
+          <a class="verde" href="./registration_form.html">Registration Form</a>
+        </nav>
+      </div>
+      <h2 class="tit-h2">Registration Form</h2>
+    </header>
+    <main>
+      <section class="sec-formulario"></section>
+      <form action="./show_data.html" method="get">
+
+        <!--  PRIMER FIELDSET  -->
+        <fieldset class="field">
+          <legend>Personal Information</legend>
+
+          <div class="div-cont">
+            <div class="div-casilla">
+              <label class="label-w" for="nombre">Player's First Name:</label>
+              <input type="text" name="nombre" id="nombre" placeholder="Name" />
+            </div>
+            <div class="div-casilla">
+              <label class="label-w" for="apellido">Last Name:</label>
+              <input
+                type="text"
+                name="apellido"
+                id="apellido"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="div-casilla">
+              <label class="label-w" for="calle">Street Adress:</label>
+              <input
+                type="text"
+                name="calle"
+                id="calle"
+                placeholder="Street Adress"
+              />
+            </div>
+
+            <div class="div-casilla">
+              <label class="label-w" for="ciudad">City:</label>
+              <input type="text" name="ciudad" id="ciudad" placeholder="City" />
+            </div>
+            <div class="div-casilla">
+              <label class="label-w" for="zip">Zip Code:</label>
+              <input type="text" name="zip" id="zip" placeholder="Zip Code" />
+            </div>
+            <div class="div-casilla">
+              <label class="label-w" for="cumple">Birth Date (m/d/y): </label>
+              <input type="date" name="cumple" id="cumple" />
+            </div>
+            <div class="cont-gender-grade">
+              <p class="p-gender">Gender:</p>
+              <div class="div-gender">
+                <div class="div-male">
+                  <label for="genero"
+                    >Male
+                    <input
+                      type="radio"
+                      name="genero"
+                      id="masculino"
+                      value="M"
+                    />
+                  </label>
+                </div>
+                <div class="div-female">
+                  <label for="genero"
+                    >Female
+                    <input type="radio" name="genero" id="femenino" value="F" />
+                  </label>
+                </div>
+                <div class="otro-gen">
+                  <label for="genero"
+                    >Otro Genero
+                    <input
+                      type="radio"
+                      name="genero"
+                      id="otro-genero"
+                      value="O"
+                    />
+                  </label>
+                </div>
+              </div>
+
+              <p class="p-grade">Grade:</p>
+
+              <div class="div-grade">
+                <label for="">Pre-School</label>
+                <input
+                  type="checkbox"
+                  name="grade"
+                  id="pre-school"
+                  value="pre-school"
+                />
+                <label for="">1st</label>
+                <input type="checkbox" name="grade" id="1st" value="1st" />
+                <label for="">2nd</label>
+                <input type="checkbox" name="grade" id="2nd" value="2nd" />
+                <label for="">3rd</label>
+                <input type="checkbox" name="grade" id="3rd" value="3rd" />
+                <label for="">4th</label>
+                <input type="checkbox" name="grade" id="4th" value="4th" />
+                <label for="">5th</label>
+                <input type="checkbox" name="grade" id="5th" value="5th" />
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <!--  SEGUNDO FIELDSET  -->
+
+        <fieldset class="field">
+          <legend>Which elementary school do you live near?</legend>
+
+          <p class="p-school">Closest School:</p>
+
+          <div class="div-school">
+            <div class="school-1a3">
+
+              <div class="casilla-school">
+            <label  for="">Aj Katzenmaier</label>
+            <input type="checkbox" name="cerca-de" id="Aj Katzenmaier" value="Aj Katzenmaier"/>
+            </div>
+
+            <div class="casilla-school">
+            <label for="">Greenbay</label>
+            <input type="checkbox" name="cerca-de" id="Greenbay" value="Greenbay"/>
+            </div>
+
+            <div class="casilla-school">
+            <label for="">Howard A Yeager</label>
+            <input type="checkbox" name="cerca-de" id="Howard-A-Yeager" value="Howard-A-Yeager"/>
+</div>
+
+</div>
+<div class="school-4a6">
+  <div class="casilla-school">
+            <label for="">Marjorie P Hart</label>
+            <input type="checkbox" name="cerca-de" id="Marjorie-P-Hart" value="Marjorie-P-Hart"/>
+</div>
+<div class="casilla-school">
+            <label for="">North Elementary</label>
+            <input type="checkbox" name="cerca-de" id="North-Elementary" value="North-Elementary"/>
+</div>
+    <div class="casilla-school">
+            <label for="">South Elementary</label>
+            <input type="checkbox" name="cerca-de" id="South-Elementary" value="South-Elementary" />
+ </div>        
+          </div>
+          </div>
+          </div>
+        </fieldset>
+
+        <!--  TERCER FIELDSET  -->
+        
+        <fieldset class="field">
+          <legend>What  position(s) do you normally play?</legend>
+<div class="div-position">
+  <div class="casilla-position">
+          <label for="">Forward</label>
+          <input type="checkbox" name="position" id="forward" value="forward">
+</div>
+<div class="casilla-position">
+             <label for="">Defense</label>
+          <input type="checkbox" name="position" id="defense" value="defense">
+</div>
+          <div class="casilla-position">
+             <label for="">Midfield</label>
+          <input type="checkbox" name="position" id="midfield" value="midfield">
+</div>
+<div class="casilla-position">
+             <label for="">Goalkeeper</label>
+          <input type="checkbox" name="position" id="goalkepper" value="goalkepper">
+</div>
+</div>
+        </fieldset>
+
+
+        <!--CUARTO FIELDSET-->
+
+
+        <fieldset class="field">
+          <legend>Uniform size</legend>
+          
+          <div class="div-uniform">
+<div class="uniform-1a4">
+<div class="casilla-uniform">
+          <label for="">Youth Smal</label>
+          <input type="checkbox" name="unifom-size" id="youth-smal" value="youth-smal">
+ </div>
+
+<div class="casilla-uniform">
+          <label for="">Youth Medium</label>
+          <input type="checkbox" name="unifom-size" id="youth-medium" value="youth-medium">
+ </div>
+
+<div class="casilla-uniform"> 
+          <label for="">Youth Large</label>
+          <input type="checkbox" name="unifom-size" id="youth-largue" value="youth-largue">
+ </div>  
+
+ <div class="casilla-uniform">         
+          <label for="">Small</label>
+          <input type="checkbox" name="unifom-size" id="small" value="small">
+        </div>
+
+</div>
+
+<div class="uniform-5a7">
+
+<div class="casilla-uniform">  
+          <label for="">Medium</label>
+          <input type="checkbox" name="unifom-size" id="medium" value="medium">
+          </div>
+
+<div class="casilla-uniform">
+          <label for="">Large</label>
+          <input type="checkbox" name="unifom-size" id="large" value="large">
+          </div>
+
+<div class="casilla-uniform">
+         <label for="">Extra-Large</label>
+          <input type="checkbox" name="unifom-size" id="extra-large" value="extra-large">
+</div>
+</div>
+</div>
+        </fieldset>
+        <fieldset class="field">
+          <legend>Permission to Play</legend>
+<div class="div-permission"></div>
+ <div class="primer-parrafo">
+ <p>I, the parent or guardian of the minor registrant, agree that registrant and I will abide by all the
+  rules of the Mighty Ducks Hockey League(MDHL). In recognizing the possibility of physical injuty
+associated with hockey and in consideration for the "league" accepting the resgistrant for its
+hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
+their employees and associated personnel and volunteers, including the facilities used for
+practices and games, against any claim by or on behalf of the registrant as a result of the 
+registrant's participation in tge programand/orbeing transported to or from MDHL sponsored
+activities, wich transportation.<br>
+By signing below, I herebyagree and authorize the above. in addition, by signing below, I also
+acknowledge that I have read the cancellation policy agree to its terms.
+</p>
+<div class="firmaYdate">
+  <div class="firma">
+<label for="">Parent/GuardianSignature:</label>
+<input type="text" name="firma" placeholder="Nombre y Apellido">
+</div>
+<label for="">Date: </label>
+<input type="date" name="fecha" id="fecha">
+</div>
+</fieldset>
+        <button class="boton-information" type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

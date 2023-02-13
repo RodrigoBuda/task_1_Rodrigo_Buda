@@ -1,162 +1,314 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: cursive;
-    font-style: oblique;}
-p{
-    font-family: cursive;
+body {
+  font-family: cursive;
+  font-style: oblique;
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("./img/fondo.jpg");
+  background-size: cover;
 }
-
-h1{
-    font-size: 40px;
-}
-header h2{
-   font-size: 30px;
-   text-align: center;
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    display: inline-block;
-    border: solid black 1px;
-    padding: 2px 20px;
-    margin: 5px;
-    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
-}
-.tit{
-        margin-left: 60px;
-        margin-bottom: 20px;
+p {
+  font-family: cursive;
 }
 
-.verde{background-color: rgb(112, 173, 71);}
-.azul{background-color: rgb(68, 114, 196);}
-
-.banner{
-    background-image: url(./img/banner.jpg);
-    display: flex;
-    margin: auto;
-    width: 75%;
-    height: 300px;
-    background-size: cover;
+h1 {
+  font-size: 40px;
 }
-nav{
-display: flex;
-align-items: flex-start;
-justify-content: flex-end;
-margin-left: auto;
-margin-top: -20px;
-    
+header h2 {
+  font-size: 30px;
+  text-align: center;
 }
-.tit-h2{
-    margin: 0px auto 30px;
-    border: 2px solid black;
-    width: 75%;
-    background-color: rgb(68, 114, 196);
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  border: solid black 1px;
+  padding: 2px 20px;
+  margin: 5px;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.tit {
+  margin-left: 12.5%;
+  margin-bottom: 40px;
 }
 
+.verde {
+  background-color: rgb(112, 173, 71);
+}
+.azul {
+  background-color: rgb(68, 114, 196);
+}
 
-.logo{
-    margin-left: 60px;
+.banner {
+  background-image: url(./img/banner.jpg);
+  display: flex;
+  margin: auto;
+  width: 75%;
+  height: 300px;
+  background-size: cover;
 }
-.fechas{
-    display: inline-block;
-    width: 500px;
-    margin-left: 60px;
-  
+nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-top: -20px;
 }
-.fechas p{
-    margin-left: 30px;
-    margin-bottom: 15px;
+.tit-h2 {
+  margin: 0px auto 30px;
+  border: 2px solid black;
+  width: 75%;
+  background-color: rgb(68, 114, 196);
+}
+
+.logo {
+  margin-left: 12.5%;
+  filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.5));
+}
+
+.fechas {
+  display: inline-block;
+  width: 500px;
+  margin-left: 60px;
+}
+.fechas p {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+.img-hockey {
+  width: 250px;
+  border-radius: 100px;
 }
 
 /*about*/
-.cont-mision, .cont-vision, .cont-info{
-    width: 800px;
-}
-.container{
-    display: inline-block;
-}
-.container h2{
-    margin-top: 20px;
-}
-.logo-about{
-    display: inline;
-    margin-left: 50px;
-    margin-bottom: 200px;
-    margin-right: 30px;
+.cont-mision,
+.cont-vision,
+.cont-info {
+  width: 800px;
 }
 
+.container {
+  display: inline-block;
+}
+.container h2 {
+  margin-top: 20px;
+}
+.logo-about {
+  display: inline;
+  margin-left: 12.5%;
+  margin-bottom: 200px;
+  margin-right: 30px;
+}
 
 /*contact*/
 
-.logo-contact{
-    display: inline;
-    margin-left: 50px;
-    
-    margin-right: 30px;
+.logo-contact {
+  display: inline;
+  margin-left: 12.5%;
+  filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.5));
+
+  margin-right: 30px;
 }
-.cont-email{
-    display: inline-block;
-    width: 350px;
-    
+.cont-email {
+  display: inline-block;
+  width: 350px;
 }
 
 /* game_info */
 
-
-
-.logo-game{
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    margin-left: 60px;
+.logo-game {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-left: 12.5%;
+  filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.5));
 }
 
-.tablas{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+.div-mapa {
+  display: flex;
+  margin: 50px 200px;
 }
-table{
-   width: 50%;
+
+.tablas {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
-.sub-tits{
-    text-align: center;
-    margin-bottom: 50px;
+table {
+  width: 50%;
 }
-td{
-    text-align: center;
+.sub-tits {
+  text-align: center;
+  margin-bottom: 50px;
 }
-.ult-datos{
-    margin-left: 60px;
-    width: 50%;
+td {
+  text-align: center;
+}
+.ult-datos {
+  margin-left: 12.5%;
+  width: 50%;
 }
 
 /* Rules */
 
-.logo-rules{
-    width: 150px;
-    height: 150px;
-    position: absolute;
+.logo-rules {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-left: 12.5%;
+  filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.5));
 }
-main h3{
-    text-align: center;
-}
-
-.politicas{
-    width: 50%;
-    margin: auto;
-    text-align: center;
-
-}
-.politicas p{
-    margin: 30px;
-}
-.politicas h2{
-    margin: 20px;
+main h3 {
+  text-align: center;
 }
 
+.politicas {
+  width: 50%;
+  margin: auto;
+}
+.politicas p {
+  margin: 30px;
+}
+.politicas h2 {
+  margin: 20px;
+}
+
+/* REGISTRATION FORM */
+
+.boton-information {
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: rgb(68, 114, 196);
+  margin-left: 12.5%;
+  margin-top: 5px;
+}
+.field {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.div-casilla input {
+  margin-left: 20px;
+}
+.label-w {
+  width: 30%;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.div-casilla {
+  margin: 15px;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+legend {
+  font-weight: bold;
+}
+.div-cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div-gender {
+  display: flex;
+}
+.div-gender label {
+  margin-left: 30px;
+}
+.p-gender,
+.p-grade,
+.p-school {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.div-grade {
+  display: flex;
+}
+
+.div-grade label {
+  margin-left: 30px;
+}
+.cont-gender-grade {
+  display: flex;
+  flex-direction: column;
+}
+.div-grade input,
+.div-school input {
+  margin-left: 5px;
+}
+
+.div-school {
+  display: flex;
+}
+.div-school label {
+  margin-left: 30px;
+  margin-right: 5px;
+  width: 100%;
+}
+.casilla-school {
+  display: flex;
+  margin: 15px;
+}
+
+/* POSITION-FORM */
+
+.div-position {
+  display: flex;
+  margin-left: 20px;
+}
+.casilla-position {
+  margin: 30px;
+}
+.div-position label {
+  margin: 5px;
+}
+
+/*UNIFORM SIZE - FORM*/
+.div-uniform {
+  display: flex;
+  margin-left: 20px;
+}
+
+.casilla-uniform {
+  display: flex;
+  margin: 20px 30px;
+}
+.div-uniform label {
+  padding-right: 8px;
+  width: 100%;
+}
+
+/*PERMISSION-FORM*/
+.div-permission {
+  display: flex;
+  margin: 20px;
+}
+
+.firmaYdate {
+  margin-top: 30px;
+  display: flex;
+}
+
+.firma {
+  margin-right: 30px;
+}
